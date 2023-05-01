@@ -1,0 +1,99 @@
+Index: ../PBS/encounters.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../PBS/encounters.txt b/../PBS/encounters.txt
+--- a/../PBS/encounters.txt	(revision 33065a8f4500fa3e41413e8299076085d752dca0)
++++ b/../PBS/encounters.txt	(date 1673028457593)
+@@ -13120,21 +13120,6 @@
+ NIDORANmA,24,24
+ NIDORANmA,24,24
+ NIDORANmA,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+-NIDORANfE,24,24
+ EXEGGCUTE,23,25
+ EXEGGCUTE,23,25
+ EXEGGCUTE,23,25
+@@ -13188,6 +13173,21 @@
+ KANGASKHAN,25,25
+ KANGASKHAN,25,25
+ KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
++KANGASKHAN,25,25
+ DODUO,26,26
+ DODUO,26,26
+ DODUO,26,26
+@@ -14523,16 +14523,6 @@
+ 486# Area 4
+ 25,10,10
+ LandDay
+-NIDORANmA,22,22
+-NIDORANmA,22,22
+-NIDORANmA,22,22
+-NIDORANmA,22,22
+-NIDORANmA,22,22
+-NIDORANfE,22,22
+-NIDORANfE,22,22
+-NIDORANfE,22,22
+-NIDORANfE,22,22
+-NIDORANfE,22,22
+ DODUO,26,26
+ DODUO,26,26
+ DODUO,26,26
+@@ -14622,6 +14612,16 @@
+ TAUROS,25,25
+ TAUROS,25,25
+ TAUROS,25,25
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
++KANGASKHAN,28,28
+ KANGASKHAN,28,28
+ LandMorning
+ EXEGGCUTE,24,25
+Index: ../Graphics/Battlers/Eggs/desktop.ini
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Graphics/Battlers/Eggs/desktop.ini b/../Graphics/Battlers/Eggs/desktop.ini
+new file mode 100644
+--- /dev/null	(date 1664725866779)
++++ b/../Graphics/Battlers/Eggs/desktop.ini	(date 1664725866779)
+@@ -0,0 +1,3 @@
++[LocalizedFileNames]
++19.png=@19.png,0
++201.png=@201.png,0

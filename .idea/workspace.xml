@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b75733cd-5263-4874-b8a1-67c2d7dd4f4e" name="Default Changelist" comment="Fixes bug with shiny pokemon">
+      <change beforePath="$PROJECT_DIR$/Map498.rxdata" beforeDir="false" afterPath="$PROJECT_DIR$/Map498.rxdata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map559.rxdata" beforeDir="false" afterPath="$PROJECT_DIR$/Map559.rxdata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapInfos.rxdata" beforeDir="false" afterPath="$PROJECT_DIR$/MapInfos.rxdata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/010_Data/002_PBS data/013_Trainer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/010_Data/002_PBS data/013_Trainer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/025-Randomizer/randomizer gym leader edit.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/025-Randomizer/randomizer gym leader edit.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/050_AddOns/MultiSaves.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/050_AddOns/MultiSaves.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System.rxdata" beforeDir="false" afterPath="$PROJECT_DIR$/System.rxdata" afterDir="false" />
+    </list>
+    <list id="af18be94-2380-4296-8eb9-ecf41de54a4e" name="never push" comment="">
+      <change afterPath="$PROJECT_DIR$/species.dat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Module" />
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="e1-release-beta-storyRevamp" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1nzunLBiYFAMGVKoffcxnPCpZZt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\010_Data\002_PBS data" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\004_Game classes" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\050_AddOns" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts" />
+      <recent name="C:\Users\Charles\Documents\Games\Pokemon\InfiniteFusion\PokemonFusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\024_Addons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\048_Fusion" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\050_AddOns" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\999_Main" />
+      <recent name="C:\Users\charl\Documents\Jeux\rpgmaker\infinitefusion\dev\dev\essentials18\infinitefusion-e18\Data\Scripts\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OnlineWondertrade" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Data" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Scripts/050_AddOns" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Scripts/050_AddOns/OnlineWondertrade.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.OnlineWondertrade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b75733cd-5263-4874-b8a1-67c2d7dd4f4e" name="Default Changelist" comment="" />
+      <changelist id="af18be94-2380-4296-8eb9-ecf41de54a4e" name="never push" comment="" />
+      <created>1612405410115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612405410115</updated>
+      <workItem from="1612405411233" duration="110000" />
+      <workItem from="1612405631652" duration="1654000" />
+      <workItem from="1615067386297" duration="1205000" />
+      <workItem from="1618064494371" duration="7772000" />
+      <workItem from="1624113911916" duration="15561000" />
+      <workItem from="1624543200489" duration="1049000" />
+      <workItem from="1624544265438" duration="9406000" />
+      <workItem from="1624655685423" duration="21049000" />
+      <workItem from="1624749007298" duration="16666000" />
+      <workItem from="1624839542502" duration="3001000" />
+      <workItem from="1625145825502" duration="24293000" />
+      <workItem from="1625268393694" duration="7215000" />
+      <workItem from="1625928863916" duration="694000" />
+      <workItem from="1626289536089" duration="6433000" />
+      <workItem from="1626296036037" duration="15836000" />
+      <workItem from="1626370682304" duration="4626000" />
+      <workItem from="1626784928809" duration="7858000" />
+      <workItem from="1626806017899" duration="45751000" />
+      <workItem from="1627138661953" duration="13221000" />
+      <workItem from="1627226965303" duration="9241000" />
+      <workItem from="1627514764431" duration="5092000" />
+      <workItem from="1627738591100" duration="30140000" />
+      <workItem from="1627859742873" duration="2179000" />
+      <workItem from="1627945180804" duration="5953000" />
+      <workItem from="1628432769777" duration="2695000" />
+      <workItem from="1628811937893" duration="1332000" />
+      <workItem from="1628949596580" duration="5310000" />
+      <workItem from="1629741027476" duration="665000" />
+      <workItem from="1630102601097" duration="16000" />
+      <workItem from="1630165336980" duration="12123000" />
+      <workItem from="1630768325722" duration="8594000" />
+      <workItem from="1630786559310" duration="635000" />
+      <workItem from="1630797362883" duration="6070000" />
+      <workItem from="1630849766703" duration="5310000" />
+      <workItem from="1630870032142" duration="6608000" />
+      <workItem from="1631229272123" duration="3593000" />
+      <workItem from="1631291266433" duration="635000" />
+      <workItem from="1631317148326" duration="3913000" />
+      <workItem from="1631456735579" duration="10229000" />
+      <workItem from="1633277336365" duration="7275000" />
+      <workItem from="1633614026636" duration="291000" />
+      <workItem from="1633715773669" duration="16461000" />
+      <workItem from="1633968858358" duration="6084000" />
+      <workItem from="1633979805278" duration="1480000" />
+      <workItem from="1634409305532" duration="2491000" />
+      <workItem from="1636311219130" duration="3747000" />
+      <workItem from="1636916427199" duration="1118000" />
+      <workItem from="1637425714967" duration="2197000" />
+      <workItem from="1637445466417" duration="1250000" />
+      <workItem from="1637512058399" duration="648000" />
+      <workItem from="1638377600328" duration="1353000" />
+      <workItem from="1638929741298" duration="600000" />
+      <workItem from="1639180676198" duration="3260000" />
+      <workItem from="1639839538180" duration="17714000" />
+      <workItem from="1639937096022" duration="901000" />
+      <workItem from="1640026165424" duration="54005000" />
+      <workItem from="1640794232810" duration="12434000" />
+      <workItem from="1641141880036" duration="15679000" />
+      <workItem from="1646443052970" duration="4144000" />
+      <workItem from="1646497164430" duration="2443000" />
+      <workItem from="1646506925522" duration="5644000" />
+      <workItem from="1646701842077" duration="497000" />
+      <workItem from="1647097986360" duration="1396000" />
+      <workItem from="1647104036632" duration="732000" />
+      <workItem from="1647181366748" duration="22786000" />
+      <workItem from="1647727075507" duration="8840000" />
+      <workItem from="1647783332007" duration="1283000" />
+      <workItem from="1648166409712" duration="2809000" />
+      <workItem from="1648409895944" duration="4595000" />
+      <workItem from="1648679808011" duration="16029000" />
+      <workItem from="1649284341037" duration="35394000" />
+      <workItem from="1650065204620" duration="28045000" />
+      <workItem from="1650244943245" duration="31843000" />
+      <workItem from="1650323574940" duration="844000" />
+      <workItem from="1650383105606" duration="11846000" />
+      <workItem from="1650747727197" duration="23967000" />
+      <workItem from="1650840589765" duration="2526000" />
+      <workItem from="1650939662534" duration="3180000" />
+      <workItem from="1651275929514" duration="75255000" />
+      <workItem from="1651696799924" duration="23450000" />
+      <workItem from="1652488130496" duration="1772000" />
+      <workItem from="1652534124505" duration="9460000" />
+      <workItem from="1652619643671" duration="7967000" />
+      <workItem from="1653086321504" duration="1236000" />
+      <workItem from="1653172098011" duration="666000" />
+      <workItem from="1653224588246" duration="67000" />
+      <workItem from="1653224721883" duration="26391000" />
+      <workItem from="1653829292273" duration="9903000" />
+      <workItem from="1653847102897" duration="624000" />
+      <workItem from="1654117071174" duration="7358000" />
+      <workItem from="1654279699486" duration="28633000" />
+      <workItem from="1654365590380" duration="15752000" />
+      <workItem from="1654644536414" duration="2319000" />
+      <workItem from="1654812664306" duration="5541000" />
+      <workItem from="1654876553770" duration="6534000" />
+      <workItem from="1655069085302" duration="6663000" />
+      <workItem from="1655331218148" duration="29497000" />
+      <workItem from="1655666612278" duration="13502000" />
+      <workItem from="1655770445288" duration="1836000" />
+      <workItem from="1655848596424" duration="7910000" />
+      <workItem from="1655936237705" duration="41029000" />
+      <workItem from="1656370913744" duration="17184000" />
+      <workItem from="1656856016072" duration="10765000" />
+      <workItem from="1656882501902" duration="1300000" />
+      <workItem from="1657374971428" duration="7911000" />
+      <workItem from="1657404273274" duration="1279000" />
+      <workItem from="1658182761506" duration="274000" />
+      <workItem from="1658244368598" duration="1122000" />
+      <workItem from="1658321718527" duration="15383000" />
+      <workItem from="1658344397448" duration="3837000" />
+      <workItem from="1658348648452" duration="2244000" />
+      <workItem from="1658408195530" duration="13822000" />
+      <workItem from="1658447642791" duration="1957000" />
+      <workItem from="1658578498391" duration="2768000" />
+      <workItem from="1659566140831" duration="3469000" />
+      <workItem from="1659645672780" duration="3613000" />
+      <workItem from="1659811987587" duration="6590000" />
+      <workItem from="1660337964076" duration="4625000" />
+      <workItem from="1660402242191" duration="2289000" />
+      <workItem from="1660502313460" duration="2419000" />
+      <workItem from="1660855796315" duration="1626000" />
+      <workItem from="1660871174868" duration="9003000" />
+      <workItem from="1661540444317" duration="1843000" />
+      <workItem from="1661654348951" duration="12320000" />
+      <workItem from="1662217579081" duration="5882000" />
+      <workItem from="1662306833845" duration="12395000" />
+      <workItem from="1662326462094" duration="1417000" />
+      <workItem from="1662395919296" duration="9445000" />
+      <workItem from="1662595076539" duration="944000" />
+      <workItem from="1662898207894" duration="5404000" />
+      <workItem from="1663431643089" duration="25884000" />
+      <workItem from="1663956195975" duration="79116000" />
+      <workItem from="1665258842302" duration="10045000" />
+      <workItem from="1665840061221" duration="1358000" />
+      <workItem from="1665881652804" duration="18241000" />
+      <workItem from="1666128959576" duration="10201000" />
+      <workItem from="1666490050060" duration="320000" />
+      <workItem from="1666497558494" duration="7025000" />
+      <workItem from="1666744268120" duration="5029000" />
+      <workItem from="1666907290573" duration="32191000" />
+      <workItem from="1667165728667" duration="14467000" />
+      <workItem from="1667596108626" duration="2220000" />
+      <workItem from="1667617598509" duration="56289000" />
+      <workItem from="1668265545870" duration="1613000" />
+      <workItem from="1668296867107" duration="21451000" />
+      <workItem from="1668475417966" duration="28000" />
+      <workItem from="1668618866321" duration="4556000" />
+      <workItem from="1668740160466" duration="3835000" />
+      <workItem from="1668883411764" duration="16875000" />
+      <workItem from="1669162167157" duration="10353000" />
+      <workItem from="1669214638701" duration="3490000" />
+      <workItem from="1669437414973" duration="698000" />
+      <workItem from="1669471561337" duration="21500000" />
+      <workItem from="1669659364568" duration="5397000" />
+      <workItem from="1669769117736" duration="2815000" />
+      <workItem from="1669773240735" duration="27183000" />
+      <workItem from="1670771661722" duration="167000" />
+      <workItem from="1670859559654" duration="1446000" />
+      <workItem from="1671158418878" duration="5803000" />
+      <workItem from="1671851713576" duration="1232000" />
+      <workItem from="1671993348212" duration="22025000" />
+      <workItem from="1672324404391" duration="11842000" />
+      <workItem from="1673021416877" duration="1212000" />
+      <workItem from="1673022856650" duration="24144000" />
+      <workItem from="1673578911170" duration="131000" />
+      <workItem from="1673579045130" duration="671000" />
+      <workItem from="1673798849701" duration="6722000" />
+      <workItem from="1674273005282" duration="789000" />
+      <workItem from="1674870870416" duration="3709000" />
+      <workItem from="1675041720113" duration="22705000" />
+      <workItem from="1675635512537" duration="610000" />
+      <workItem from="1675806729874" duration="11358000" />
+      <workItem from="1676676195530" duration="6457000" />
+      <workItem from="1677350856865" duration="4066000" />
+      <workItem from="1677369923635" duration="10972000" />
+      <workItem from="1678054968250" duration="5376000" />
+      <workItem from="1678292783364" duration="1833000" />
+    </task>
+    <task id="LOCAL-00251" summary="Mt. Ember event finishes">
+      <created>1668976518131</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1668976518132</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Intro movie (still need to make it skippable)">
+      <created>1669173386332</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1669173386333</updated>
+    </task>
+    <task id="LOCAL-00253" summary="Mt. silver, Rock Climb - startup performance">
+      <created>1669493517955</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1669493517956</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Mt. silver (unfinished) maps &amp; events">
+      <created>1669506562870</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1669506562870</updated>
+    </task>
+    <task id="LOCAL-00255" summary="Mt. Silver - finished">
+      <created>1669576302122</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1669576302122</updated>
+    </task>
+    <task id="LOCAL-00256" summary="indexed custom battlers">
+      <created>1669771337258</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1669771337259</updated>
+    </task>
+    <task id="LOCAL-00257" summary="climbing gear + autosave fix">
+      <created>1669848874064</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1669848874064</updated>
+    </task>
+    <task id="LOCAL-00258" summary="custom sprites fixes + various map fixes">
+      <created>1669862695816</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1669862695816</updated>
+    </task>
+    <task id="LOCAL-00259" summary="options menu unselected text color">
+      <created>1670169918518</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169918518</updated>
+    </task>
+    <task id="LOCAL-00260" summary="basic sprites sorting validation">
+      <created>1670279577054</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1670279577054</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Fixes real shinies being considered fake when fused as the head of a fusion">
+      <created>1670366283214</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1670366283214</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Fixes Disguise ability">
+      <created>1670367014845</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1670367014845</updated>
+    </task>
+    <task id="LOCAL-00263" summary="mt silver sequence break safeguard">
+      <created>1670375778709</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1670375778709</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Random grammar fixes + fixes crash while using morning sun &amp; moonlight in some indoor maps">
+      <created>1670865612732</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1670865612733</updated>
+    </task>
+    <task id="LOCAL-00265" summary="fixes soul dew">
+      <created>1671293190570</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1671293190571</updated>
+    </task>
+    <task id="LOCAL-00266" summary="Fixes voltorb flip crash">
+      <created>1671838358580</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1671838358580</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Basic online wondertrade system">
+      <created>1672092444220</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1672092444221</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Adds support for shinies in online wondertrade">
+      <created>1672097617495</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1672097617495</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Workaround for using pokeradar without repel">
+      <created>1672712316887</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1672712316887</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Fixes quest journal">
+      <created>1672720123717</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1672720123717</updated>
+    </task>
+    <task id="LOCAL-00271" summary="Fix for pokemon that should be impossible to catch">
+      <created>1673021709202</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021709202</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Adds hidden ability routes">
+      <created>1673027487563</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1673027487564</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Removes temp value">
+      <created>1673027515195</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1673027515195</updated>
+    </task>
+    <task id="LOCAL-00274" summary="5.1.1 compile">
+      <created>1673036205018</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1673036205018</updated>
+    </task>
+    <task id="LOCAL-00275" summary="5.1.1 compile (species.dat)">
+      <created>1673036229428</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1673036229428</updated>
+    </task>
+    <task id="LOCAL-00276" summary="Small cleanup">
+      <created>1673038098967</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1673038098967</updated>
+    </task>
+    <task id="LOCAL-00277" summary="Hall of fame pause">
+      <created>1673041600523</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1673041600523</updated>
+    </task>
+    <task id="LOCAL-00278" summary="Fixes Voltorb flip crash">
+      <created>1673049569638</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049569638</updated>
+    </task>
+    <task id="LOCAL-00279" summary="bunch of fixes that had to be combined into one commit because github doesn't like large files and I accidentally included a large file">
+      <created>1673049726897</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049726898</updated>
+    </task>
+    <task id="LOCAL-00280" summary="other stuff missing from previous commit">
+      <created>1673049891153</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049891153</updated>
+    </task>
+    <task id="LOCAL-00281" summary="Makes it impossible to fuse eggs">
+      <created>1673058269185</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1673058269185</updated>
+    </task>
+    <task id="LOCAL-00282" summary="Nicknaming from PC">
+      <created>1673059495156</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1673059495156</updated>
+    </task>
+    <task id="LOCAL-00283" summary="Adds date, game mode and difficulty to HoF screen + minor fixes">
+      <created>1673114369564</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1673114369564</updated>
+    </task>
+    <task id="LOCAL-00284" summary="Various bugfixes">
+      <created>1673799091101</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1673799091102</updated>
+    </task>
+    <task id="LOCAL-00285" summary="Various bugfixes">
+      <created>1675286109511</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1675286109512</updated>
+    </task>
+    <task id="LOCAL-00286" summary="Makes it possible to download sprites at runtime">
+      <created>1675392231435</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1675392231435</updated>
+    </task>
+    <task id="LOCAL-00287" summary="Makes it possible to download sprites at runtime">
+      <created>1675392247807</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1675392247807</updated>
+    </task>
+    <task id="LOCAL-00288" summary="sprites download fixes">
+      <created>1675545067310</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1675545067310</updated>
+    </task>
+    <task id="LOCAL-00289" summary="Adds experimental mode in which levels don't affect stats">
+      <created>1675807788501</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1675807788501</updated>
+    </task>
+    <task id="LOCAL-00290" summary="Adds option to enable downloading sprites">
+      <created>1675808412120</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1675808412120</updated>
+    </task>
+    <task id="LOCAL-00291" summary="Fixes land surfing">
+      <created>1676226286327</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1676226286327</updated>
+    </task>
+    <task id="LOCAL-00292" summary="fixes download sprite option + various small fixes">
+      <created>1676227202967</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1676227202967</updated>
+    </task>
+    <task id="LOCAL-00293" summary="Removes create PBS debug command">
+      <created>1676340688868</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1676340688868</updated>
+    </task>
+    <task id="LOCAL-00294" summary="Various map fixes">
+      <created>1676340707782</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1676340707782</updated>
+    </task>
+    <task id="LOCAL-00295" summary="battle tower stuff">
+      <created>1677963289170</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1677963289170</updated>
+    </task>
+    <task id="LOCAL-00296" summary="Sprites now get downloaded to battlers folder instead of temp folder">
+      <created>1677967587136</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1677967587136</updated>
+    </task>
+    <task id="LOCAL-00297" summary="Adds menu option for no levels mode">
+      <created>1677975662067</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1677975662067</updated>
+    </task>
+    <task id="LOCAL-00298" summary="battle tower bugfixes">
+      <created>1678056588503</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1678056588503</updated>
+    </task>
+    <task id="LOCAL-00299" summary="Fixes bug with shiny pokemon">
+      <created>1678060527509</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1678060527509</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/charl/Documents/Jeux/rpgmaker/infinitefusion/dev/dev/essentials18/infinitefusion-e18/Data/Scripts/011_Battle" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Removes temp value" />
+    <MESSAGE value="5.1.1 compile" />
+    <MESSAGE value="5.1.1 compile (species.dat)" />
+    <MESSAGE value="Small cleanup" />
+    <MESSAGE value="Hall of fame pause" />
+    <MESSAGE value="Fixes Voltorb flip crash" />
+    <MESSAGE value="bunch of fixes that had to be combined into one commit because github doesn't like large files and I accidentally included a large file" />
+    <MESSAGE value="other stuff missing from previous commit" />
+    <MESSAGE value="Makes it impossible to fuse eggs" />
+    <MESSAGE value="Nicknaming from PC" />
+    <MESSAGE value="Adds date, game mode and difficulty to HoF screen + minor fixes" />
+    <MESSAGE value="Various bugfixes" />
+    <MESSAGE value="Makes it possible to download sprites at runtime" />
+    <MESSAGE value="sprites download fixes" />
+    <MESSAGE value="Adds experimental mode in which levels don't affect stats" />
+    <MESSAGE value="Adds option to enable downloading sprites" />
+    <MESSAGE value="Fixes land surfing" />
+    <MESSAGE value="fixes download sprite option + various small fixes" />
+    <MESSAGE value="Removes create PBS debug command" />
+    <MESSAGE value="Various map fixes" />
+    <MESSAGE value="battle tower stuff" />
+    <MESSAGE value="Sprites now get downloaded to battlers folder instead of temp folder" />
+    <MESSAGE value="Adds menu option for no levels mode" />
+    <MESSAGE value="battle tower bugfixes" />
+    <MESSAGE value="Fixes bug with shiny pokemon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes bug with shiny pokemon" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Scripts/015_Trainers and player/005_Player_Pokedex.rb</url>
+          <line>15</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Scripts/013_Items/005_Item_PokeRadar.rb</url>
+          <line>30</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Scripts/016_UI/006_UI_Summary.rb</url>
+          <line>748</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Scripts/016_UI/013_UI_Load.rb</url>
+          <line>185</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
