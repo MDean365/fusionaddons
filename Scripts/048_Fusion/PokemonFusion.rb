@@ -721,8 +721,8 @@ class PokemonFusionScene
       species1 = GameData::Species.get(@pokemon1.species)
       species2 = GameData::Species.get(@pokemon2.species)
 
-      custom1 = @pokemon1.ability if !(species1.abilities + species1.hidden_abilities).include?(@pokemon1.ability)
-      custom2 = @pokemon2.ability if !(species2.abilities + species2.hidden_abilities).include?(@pokemon2.ability)
+      custom1 = @pokemon1.ability if !(species1.abilities + species1.hidden_abilities).include?(@pokemon1.ability_id)
+      custom2 = @pokemon2.ability if !(species2.abilities + species2.hidden_abilities).include?(@pokemon2.ability_id)
 
       #change species
       @pokemon1.species = newSpecies
