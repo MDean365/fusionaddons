@@ -1451,6 +1451,7 @@ def pbUnfuse(pokemon, scene, supersplicers, pcPosition = nil)
       end
       body_level = poke1.level
       head_level = poke2.level
+      poke1.ability = pokemon.custom_ability_body if pokemon.custom_ability_body
 
       pokemon.exp_gained_since_fused = 0
       pokemon.exp_when_fused_head = nil
@@ -1495,6 +1496,8 @@ def pbUnfuse(pokemon, scene, supersplicers, pcPosition = nil)
         poke2.debug_shiny=false
       end
 
+      poke2.ability = pokemon.custom_ability_head if pokemon.custom_ability_head
+
       if $Trainer.party.length >= 6
         if (keepInParty == 0)
           $PokemonStorage.pbStoreCaught(poke2)
@@ -1502,6 +1505,8 @@ def pbUnfuse(pokemon, scene, supersplicers, pcPosition = nil)
         else
           poke2 = Pokemon.new(bodyPoke, body_level)
           poke1 = Pokemon.new(headPoke, head_level)
+          poke2.ability = pokemon.custom_ability_body if pokemon.custom_ability_body
+          poke1.ability = pokemon.custom_ability_head if pokemon.custom_ability_head
 
           if pcPosition != nil
             box = pcPosition[0]
@@ -1531,6 +1536,9 @@ def pbUnfuse(pokemon, scene, supersplicers, pcPosition = nil)
       $Trainer.pokedex.set_owned(poke1.species)
 
       pokemon.species = poke1.species
+      pokemon.ability = poke1.ability
+      pokemon.custom_ability_body = nil
+      pokemon.custom_ability_head = nil
       pokemon.level = poke1.level
       pokemon.name = poke1.name
       pokemon.moves = poke1.moves

@@ -15,9 +15,13 @@ class Pokemon
   # @return [Integer] the current experience points
   attr_reader :exp
 
+  # Fusion specific variables
   attr_accessor :exp_when_fused_head
   attr_accessor :exp_when_fused_body
   attr_accessor :exp_gained_since_fused
+  # Store if a custom (illegal) ability was present during a fusion, so it can be returned after unfusing
+  attr_accessor :custom_ability_head
+  attr_accessor :custom_ability_body
 
   # @return [Integer] the number of steps until this Pokémon hatches, 0 if this Pokémon is not an egg
   attr_accessor :steps_to_hatch
