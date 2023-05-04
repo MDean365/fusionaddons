@@ -1434,6 +1434,22 @@ def pbUnfuse(pokemon, scene, supersplicers, pcPosition = nil)
       scene.pbDisplay(_INTL(" ... "))
       scene.pbDisplay(_INTL(" ... "))
 
+      # If pokemon has a custom ability that isn't attributable to either piece (= randomized while fused)
+      # Give a random piece the custom ability and leave the other as normal
+      bodySpecies = GameData::Species.get(bodyPoke)
+      headSpecies = GameData::Species.get(headPoke)
+      unaccountedAbility = (!(pokemon.custom_ability_body || pokemon.custom_ability_body) && 
+      !((bodySpecies.abilities + bodySpecies.hidden_abilities).include?(pokemon.ability_id) || 
+      (headSpecies.abilities + headSpecies.hidden_abilities).include?(pokemon.ability_id)))
+
+      if unaccountedAbility
+        if rand(2) == 0
+          pokemon.custom_ability_head = pokemon.ability
+        else
+          pokemon.custom_ability_body = pokemon.ability
+        end
+      end
+
       if pokemon.exp_when_fused_head == nil || pokemon.exp_when_fused_body == nil
         new_level = calculateUnfuseLevelOldMethod(pokemon, supersplicers)
         body_level = new_level
